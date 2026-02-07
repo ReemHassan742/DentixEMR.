@@ -18,6 +18,8 @@ namespace DentixEMR.Data.Entities
 
         public string FileType { get; set; } = null!;
 
+        public string? Description { get; set; }
+
         public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 
         public Patient Patient { get; set; } = null!;

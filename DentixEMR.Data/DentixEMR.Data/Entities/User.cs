@@ -20,6 +20,8 @@ namespace DentixEMR.Data.Entities
 
         public string Email { get; set; } = null!;
 
+        public string Password { get; set; }
+
         public string PhoneNumber { get; set; } = null!;
 
         public UserRole Role { get; set; } 
